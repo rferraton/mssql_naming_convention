@@ -5,3 +5,4 @@ Naming convention for mssql server objects
 - [Databases Rules](DatabaseRules.md)
 - [Schemas Rules](SchemaRules.md)
 - [Tables and Views Rules](TablesAndViews.md)
+- [Columns Rules](ColumnsRules.md)
