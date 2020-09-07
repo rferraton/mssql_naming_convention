@@ -1,4 +1,4 @@
-# mssql_naming_convention
+# mssql naming convention
 Naming convention for mssql server objects
 
 - [Global Rules](GlobalRules.md)
