@@ -44,6 +44,11 @@ Fact Data	|	PUR	|	Purchasing	|
 Fact Data	|	HUM	|	Human Ressources	|
 Fact Data	|	PRO	|	Product	|
 
+### TV5 : Cross tables names
+should be named by concatenating the names of the tables that have a one to many relationships with the junction table.<br/>
+Example: L\_\<HiercharchyPattern_Table1\>\_\<TableName1\>\_\<TableName2\>
+
+
 <br/>
 
 __Samples__
