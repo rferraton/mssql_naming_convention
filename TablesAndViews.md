@@ -93,9 +93,9 @@ __Samples__
 |	Tables and Views	|	Link table linking Product and Supplier	|	L_PRO_Product_Supplier	|		|
 |	Tables and Views	|	Link table linking Employee and Manager	|	L_HUM_Employee_Manager	|		|
 |	Tables and Views	|	Anomaly table for dimension product	|	A_D_PRO_Product	|	Level Product	|
-|	Tables and Views	|	Anamaly table for fact financial COPA	|	A_F_FIN_COPA	|		|
-|	Tables and Views	|	Anamaly table for fact Sales Invoices	|	A_F_SAL_Invoice	|		|
-|	Tables and Views	|	Anamaly table for fact Sales Delivery	|	A_F_SAL_Delivery	|		|
+|	Tables and Views	|	Anomaly table for fact financial COPA	|	A_F_FIN_COPA	|		|
+|	Tables and Views	|	Anomaly table for fact Sales Invoices	|	A_F_SAL_Invoice	|		|
+|	Tables and Views	|	Anomaly table for fact Sales Delivery	|	A_F_SAL_Delivery	|		|
 |		|		|		|		|
 |	Tables and Views	|	Logging table for schedules	|	N_LOG_Schedule	|		|
 |	Tables and Views	|	Logging table for alerts	|	N_LOG_Alert	|		|
