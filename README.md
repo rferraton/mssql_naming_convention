@@ -7,3 +7,4 @@ Naming convention for mssql server objects
 - [Tables and Views Rules](TablesAndViews.md)
 - [Columns Rules](ColumnsRules.md)
 - [Constraints Rules](ConstraintsRules.md)
+- [Indexes Rules](IndexesRules.md)
