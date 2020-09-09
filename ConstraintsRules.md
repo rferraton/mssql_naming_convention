@@ -1,6 +1,8 @@
-# Constraints Rules
+## Constraints Rules
 
-# CS1 : Constraints prefixes
+- **[Global Rules](GlobalRules.md)** and
+
+### CS1 : Constraints prefixes
 2 letters uppercase depending the constraint's type. Constraints prefixes will be in the following list :
 
 Constraint Type	|	Prefix	|
@@ -11,7 +13,7 @@ Unique key	|	UK_	|
 Check key	|	CK_	|	
 Default	|	DF_	|	
 
-# CS1 : Constraints naming pattern
+### CS1 : Constraints naming pattern
 
 
 Constraint Type	|	CSPrefix	|Pattern|		exemple	|
