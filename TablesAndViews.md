@@ -1,5 +1,7 @@
 ## Tables and Views naming conventions :
 
+- **[Global Rules](GlobalRules.md)** and
+
 ### TV1 : No prefix for object type
 T_ or V_ are not allowed for object type designation. reporting tools sometimes use tables and sometimes use views (sometimes both), it is usefull to be able to switch from a table to a view. An object type prefix would dissallow this kind of switch.
 
