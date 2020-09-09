@@ -17,7 +17,7 @@ All object names should be written in **[UpperCamelCase](https://en.wikipedia.or
 ### G3 : Prefixes
 Prefixes are written in <b> upper case and followed by "_" </b>
 
-#### Prefixes list :  
+#### exemples with tables or views prefixes list :  
 
 | Object Type       |	Prefix      |	Description |
 | :---              |    :----:   | ---:        |
