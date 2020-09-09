@@ -1,5 +1,7 @@
 ## Indexes naming convention
 
+- **[Global Rules](GlobalRules.md)** and
+
 ### Indexes Prefixes and pattern
 
 |	Btree/Column Store	|	Unique/Non Unique	|	Cluster	|	Non-Cluster	|
