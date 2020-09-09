@@ -1,5 +1,7 @@
 ## Database Rules
 
+- **[Global Rules](GlobalRules.md)** and
+
 ### DB1 : Database naming regarding target area
 
 Databases samples :
