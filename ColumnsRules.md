@@ -1,5 +1,7 @@
 ## Columns naming convention
 
+- **[Global Rules](GlobalRules.md)** and
+
 ### C1 : Numeric key columns
 Surrogate key numeric columns should be named using the following syntax :
 <br/>
