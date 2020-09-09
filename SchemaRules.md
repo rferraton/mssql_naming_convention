@@ -1,5 +1,7 @@
 ## Schemas Rules
 
+- **[Global Rules](GlobalRules.md)** and
+
 Schemas in databases are used to :
 - separate objects in different namespaces
 - provide a kind of groups of objects where security access may be applied
