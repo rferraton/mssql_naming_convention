@@ -2,7 +2,7 @@
 
 - **[Global Rules](GlobalRules.md)** and
 
-### TV1 : Procedure naming parts
+### TV1 : Tables and Views naming parts
 \<PREFIX\>\_\<DOMAIN\>\_\<Detail\>
 
 
