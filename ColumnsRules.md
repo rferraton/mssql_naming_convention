@@ -8,7 +8,7 @@ Surrogate key numeric columns should be named using the following syntax :
 **\<reference table name\>\_Skey**
 
 ### C2 : Directly-derived columns
-Columns that are derived directly from source systems (no transformations applied between source and column) should bear the exact name of its source.<br/>
+Columns that are derived directly from source systems (no transformations applied between source and column) should be the exact name of its source.<br/>
 The only difference may be due to the removal / replacement of forbidden characters.<br/>
 This applies to the staging area as well as all other areas.
 
@@ -21,7 +21,7 @@ Timestamp columns Used to keep the datetime of last insertion or update of the r
 
 
 
-__Samples__
+### Samples
 
 Object Type	|	Target Area	|	Sample	|	Comment
 |	:---	|	:---	|	:---	|:---		|
