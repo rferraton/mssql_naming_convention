@@ -42,5 +42,5 @@ prepare a table after loading | PostLoad|
 - USP_PUR_PostLoad_F_PUR_Invoice
 - USP_FIN_Load_D_FIN_Account
 - USP_FIN_Purge_F_FIN_Invoice
-- USP_MDM_Get_Previous_FiscalMonth
+- USP_MDM_GetPreviousFiscalMonth
 
