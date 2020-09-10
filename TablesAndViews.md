@@ -102,9 +102,9 @@ Example: L\_\<HiercharchyPattern_Table1\>\_\<TableName1\>\_\<TableName2\>
 |	Tables and Views	|	Logging table for alerts	|	N_LOG_Alert	|		|
 |	Tables and Views	|	Logging table for changes	|	N_LOG_Change	|		|
 |		|		|		|		|
-|	Tables and Views	|	Metadata table for Product	|	M_PRO_PRODUCT	|	Meta informations regarding product	|
+|	Tables and Views	|	Metadata table for Product	|	M_PRO_Product	|	Meta informations regarding product	|
 |		|		|		|		|
-|	Tables and Views	|	Temporary table relative to product	|	Z_PRO_PRODUCT1	|		|
+|	Tables and Views	|	Temporary table relative to product	|	Z_PRO_Product1	|		|
 
 
 
