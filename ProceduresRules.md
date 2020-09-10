@@ -1,5 +1,7 @@
 ## Procedures naming convention
 
+- **[Global Rules](GlobalRules.md)** and
+
 ### P1 : Procedure naming parts
 \<PREFIX\>\_\<DOMAIN\>\_\<Type\>\_\<Detail\>
 
