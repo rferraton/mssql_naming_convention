@@ -2,8 +2,9 @@
 
 - **[Global Rules](GlobalRules.md)** and
 
-### TV1 : No prefix for object type
-T_ or V_ are not allowed for object type designation. reporting tools sometimes use tables and sometimes use views (sometimes both), it is usefull to be able to switch from a table to a view. An object type prefix would dissallow this kind of switch.
+### TV1 : Procedure naming parts
+\<PREFIX\>\_\<DOMAIN\>\_\<Detail\>
+
 
 ### TV2 : Tables and Views prefixes :
 
@@ -20,10 +21,10 @@ T_ or V_ are not allowed for object type designation. reporting tools sometimes 
 | Tables and Views  |	M_          |	Metadata tables or views |
 | Tables and Views  |	N_          |	Logging, Notifications, Traces tables or views |
 
-### TV3 : Integrate hierarchy information after the prefix
-<TV Prefix><Hierarchy Pattern><Data Store Entity Name>
+NB : T_ or V_ are not allowed for object type (Table or View) designation. reporting tools sometimes use tables and sometimes use views (sometimes both), it is usefull to be able to switch from a table to a view. An object type prefix would dissallow this kind of switch.
 
-### TV4 : Hierarchies Patterns List :
+
+### TV3 : DOMAIN - Hierarchies Patterns List :
 
 HierachyType	|	HierarchyPattern	|	Meaning	|
 :---	|	:---:	|	:---	|
@@ -46,14 +47,12 @@ Fact Data	|	PUR	|	Purchasing	|
 Fact Data	|	HUM	|	Human Ressources	|
 Fact Data	|	PRO	|	Product	|
 
-### TV5 : Cross tables names
+### TV4 : Cross tables names
 should be named by concatenating the names of the tables that have a one to many relationships with the junction table.<br/>
 Example: L\_\<HiercharchyPattern_Table1\>\_\<TableName1\>\_\<TableName2\>
 
 
-<br/>
-
-__Samples__
+### Samples
 
 |	Object Type	|	Target Area	|	Sample	|	Comment	|
 |	:---	|	:---	|	:---	|	:---	|
