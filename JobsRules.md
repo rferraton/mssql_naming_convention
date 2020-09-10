@@ -6,7 +6,7 @@
 \<PREFIX\>\_\<DOMAIN\>\_\<Detail\>
 
 ### J2 : Job prefix
-|	Domain	|	Pattern	|
+|	Domain	|	Prefix	|
 |	:---	|	:---:	|
 |	Business Job	|	BUS	|
 |	Technical	|	TEC	|
