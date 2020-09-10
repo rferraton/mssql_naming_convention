@@ -8,3 +8,6 @@ Naming convention for mssql server objects
 - [Columns Rules](ColumnsRules.md)
 - [Constraints Rules](ConstraintsRules.md)
 - [Indexes Rules](IndexesRules.md)
+- [Procedures Rules](ProceduresRules.md)
+- [Functions Rules](FunctionsRules.md)
+- [Jobs Rules](JobsRules.md)
