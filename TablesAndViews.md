@@ -26,26 +26,7 @@ NB : T_ or V_ are not allowed for object type (Table or View) designation. repor
 
 ### TV3 : DOMAIN - Hierarchies Patterns List :
 
-| Domain TriGram	|	Meaning		|
-| :---:			|	:---		|
-| TIM			|	Time / Calendar	|
-| TIF			|	Time / Fiscal	|
-| CUS			|	Customer or Client	|
-| MAT			|	Material & Product	|
-| ORG			|	Organization	|
-| GEO			|	Geographical	|
-| FIN			|	Financial	|
-| SUP			|	Supplier	|
-| HUM			|	Human Ressources	|
-| SAL			|	Sales		|
-| INV			|	Inventory and Stock |
-| ACT			|	Activity	|
-| MAN			|	Manufacturing	|
-| PUR			|	Purchasing	|
-| PRO			|	Production	|
-| MKT 			| 	Marketing 	|
-| IOT 			| 	IOT 		|
-
+See - **[Domains List](DomainsList.md)** 
 
   
 
