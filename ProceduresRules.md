@@ -9,21 +9,8 @@
 the user stored procedures must be prefixed by **USP\_**
 
 ### P3 : Procedure pattern and domain list
-|	Domain	|	Pattern	|
-|	:---	|	:---:	|
-|	Database Admin & maintenance	|	ADM	|
-|	Common dimensions & processing	|	MDM	|
-|	Sales & Marketing	|	SAL	|
-|	Supply Chain	|	SCC	|
-|	Inventory	|	INV	|
-|	Purchase	|	PUR	|
-|	Material & Product	|	MAT	|
-|	Human Ressources	|	HUM	|
-|	Finance	|	FIN	|
-|	CRM	|	CRM	|
-|	PIM	|	PIM	|
-|	…	|		|
-|	Other	|	OTH	|
+
+See - **[Domains List](DomainsList.md)** 
 
 ### P4 : Procedure type
 
