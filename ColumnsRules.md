@@ -15,7 +15,9 @@ This applies to the staging area as well as all other areas.
 ### C3 : Transformed columns
 Columns that are the result of transformations can be renamed using the general naming rules
 
-### C4 : Last Update Date Column
+### C4 : Last Update Datetime Column
+For SLT databases use **LUD** for the last update datetime
+
 Timestamp columns Used to keep the datetime of last insertion or update of the record <br/>
 **\<reference table name\>\_LUD**
 
@@ -33,4 +35,4 @@ Object Type	|	Target Area	|	Sample	|	Comment
 |	Columns	|	Last Update Date on D_PRO_Product	|	D_PRO_Product_LUD	|	Datetime2	|
 |	Columns	|	Last Update Date on D_FIN_Account	|	D_FIN_Account_LUD	|	Datetime2	|
 |	Columns	|	Last Update Date on F_FIN_Invoice	|	F_FIN_Invoice_LUD	|	Datetime2	|
-|	Columns	|	Last Update Date on BSEG	|	BSEG_LUD	|	Datetime2	|
+|	Columns	|	Last Update Date on BSEG	|	LUD	|	Datetime2	|
