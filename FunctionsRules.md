@@ -9,21 +9,8 @@
 the user stored Functions must be prefixed by **UDF\_**
 
 ### F3 : Function pattern and domain list
-|	Domain	|	Pattern	|
-|	:---	|	:---:	|
-|	Database Admin & maintenance	|	ADM	|
-|	Common dimensions & processing	|	MDM	|
-|	Sales & Marketing	|	SAL	|
-|	Supply Chain	|	SCC	|
-|	Inventory	|	INV	|
-|	Purchase	|	PUR	|
-|	Material & Product	|	MAT	|
-|	Human Ressources	|	HUM	|
-|	Finance	|	FIN	|
-|	CRM	|	CRM	|
-|	PIM	|	PIM	|
-|	…	|		|
-|	Other	|	OTH	|
+
+See - **[Domains List](DomainsList.md)** 
 
 
 ### Samples
