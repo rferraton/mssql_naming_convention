@@ -17,7 +17,7 @@ the user stored Functions must be prefixed by **UDF\_**
 |	Supply Chain	|	SCC	|
 |	Inventory	|	INV	|
 |	Purchase	|	PUR	|
-|	Production	|	PRO	|
+|	Material & Product	|	MAT	|
 |	Human Ressources	|	HUM	|
 |	Finance	|	FIN	|
 |	CRM	|	CRM	|
