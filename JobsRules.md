@@ -12,31 +12,15 @@
 |	Technical	|	TEC	|
 
 ### J3 : Job pattern and domain list
-|	Domain	|	Pattern	|
-|	:---	|	:---:	|
-|	Database Admin & maintenance	|	ADM	|
-|	Common dimensions & processing	|	MDM	|
-|	Sales & Marketing	|	SAL	|
-|	Supply Chain	|	SCC	|
-|	Inventory	|	INV	|
-|	Purchase	|	PUR	|
-|	Material & Product	|	MAT	|
-|	Human Ressources	|	HUM	|
-|	Finance	|	FIN	|
-|	CRM	|	CRM	|
-|	PIM	|	PIM	|
-|		|		|
-|	Backup	|	BKP	|
-|	Index Maintenance	| IDM |
-|	Database Integrity Check		| DIC |
-|	Database Statistics		| DST |
+
+See - **[Domains List](DomainsList.md)** 
 
 
 ### Samples
 
-- TEC_BKP_UserDatabases_Full
-- TEC_BKP_UserDatabases_Diff
-- TEC_BKP_UserDatabases_Log
-- TEC_IDM_IndexDefrag
+- TEC_DMB_UserDatabases_Full
+- TEC_DMB_UserDatabases_Diff
+- TEC_DMB_UserDatabases_Log
+- TEC_DMI_IndexDefrag
 - BUS_PUR_Invoice
 
