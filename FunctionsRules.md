@@ -16,5 +16,5 @@ See - **[Domains List](DomainsList.md)**
 ### Samples
 
 - UDF_PUR_GetLastId
-- UDF_MDM_GetPreviousFiscalMonth
+- UDF_TIF_GetPreviousFiscalMonth
 
