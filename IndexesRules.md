@@ -6,8 +6,7 @@
 
 |	Btree/Column Store	|	Unique/Non Unique	|	Cluster	|	Non-Cluster	|
 |	:---	|	:---	|	:---	|	:---	|
-|	Column Store	|	Unique	|	NA	|	NA	|
-|	Column Store	|	Non Unique	|	CC	|	CX\_\<FullTableName\>	|
+|	Column Store	|	Non Unique	|	CC	|	CX	|
 |	Btree (Classic)	|	Unique	|	UC\_\<FullTableName\>\[\_xx\] or constraint_name(PK, UK)	|	UX\_\<FullTableName\>\[\_xx\] or constraint_name (PK,UK)	|
 |	Btree (Classic)	|	Non Unique	|	IC\_\<FullTableName\>\_\<details\>	|	IX\_\<FullTableName\>\_\<details\>	|
 
