@@ -8,18 +8,18 @@
 
 ### TV2 : Tables and Views prefixes :
 
-| Object Type       |	Prefix      |	Description |
-| :---              |    :----:   | ---:        |
-| Tables and Views  |	F_          |	Fact tables or views|
-| Tables and Views  |	D_          |	Dimension / referential tables or views |
-| Tables and Views  |	A_          |	Anomalies or Rejects tables or views |
-| Tables and Views  |	L_          |	Links tables or views |
-| Tables and Views  |	T_          |	Transformation tables (YTD,12RM…) or views |
-| Tables and Views  |	S_          |	Subscriptions tables or views |
-| Tables and Views  |	Z_          |	Temp or work tables |
-| Tables and Views  |	P_          |	Parameters tables or views |
-| Tables and Views  |	M_          |	Metadata tables or views |
-| Tables and Views  |	N_          |	Logging, Notifications, Traces tables or views |
+| Object Type       |	Prefix     |	Description |
+| :---              | :----:     | ---:        |
+| Tables and Views  |	F          |	Fact tables or views|
+| Tables and Views  |	D          |	Dimension / referential tables or views |
+| Tables and Views  |	A          |	Anomalies or Rejects tables or views |
+| Tables and Views  |	L          |	Links tables or views |
+| Tables and Views  |	T          |	Transformation tables (YTD,12RM…) or views |
+| Tables and Views  |	S          |	Subscriptions tables or views |
+| Tables and Views  |	Z          |	Temp or work tables |
+| Tables and Views  |	P          |	Parameters tables or views |
+| Tables and Views  |	M          |	Metadata tables or views |
+| Tables and Views  |	N          |	Logging, Notifications, Traces tables or views |
 
 NB : T_ or V_ are not allowed for object type (Table or View) designation. reporting tools sometimes use tables and sometimes use views (sometimes both), it is usefull to be able to switch from a table to a view. An object type prefix would dissallow this kind of switch.
 
@@ -68,10 +68,10 @@ Example: L\_\<DOMAIN_Table1\>\_\<TableName1\>\_\<TableName2\>
 |	Tables and Views	|	Table or view with dimensionnal data relative to Customer	|	D_CUS_CustomerGroup	|	Level Customer Group	|
 |	Tables and Views	|	Table or view with dimensionnal data relative to Customer	|	D_CUS_CustomerSubGroup	|	Level Customer Sub-Group	|
 |	Tables and Views	|	Table or view with dimensionnal data relative to Customer	|	D_CUS_CustomerType	|	Level Customer Type	|
-|	Tables and Views	|	Table or view with dimensionnal data relative to Product	|	D_PRO_Product	|	Level Product	|
-|	Tables and Views	|	Table or view with dimensionnal data relative to Product	|	D_PRO_ProductGroup	|	Level Product Group	|
-|	Tables and Views	|	Table or view with dimensionnal data relative to Product	|	D_PRO_ProductSubGroup	|	Level Product Sub-Group	|
-|	Tables and Views	|	Table or view with dimensionnal data relative to Product	|	D_PRO_ProductType	|	Level Product Type	|
+|	Tables and Views	|	Table or view with dimensionnal data relative to Material	|	D_MAT_Material	|	Level Material	|
+|	Tables and Views	|	Table or view with dimensionnal data relative to Material	|	D_MAT_MaterialGroup	|	Level Material Group	|
+|	Tables and Views	|	Table or view with dimensionnal data relative to Material	|	D_MAT_MaterialSubGroup	|	Level Material Sub-Group	|
+|	Tables and Views	|	Table or view with dimensionnal data relative to Material	|	D_MAT_MaterialType	|	Level Material Type	|
 |	Tables and Views	|	Table or view with dimensionnal data relative to Organization	|	D_ORG_Organization	|	Level Organization	|
 |	Tables and Views	|	Table or view with dimensionnal data relative to Geography	|	D_GEO_Country	|	Level Country	|
 |	Tables and Views	|	Table or view with dimensionnal data relative to Geography	|	D_GEO_Area	|	Level Area	|
@@ -93,7 +93,7 @@ Example: L\_\<DOMAIN_Table1\>\_\<TableName1\>\_\<TableName2\>
 |	Tables and Views	|	Transformation table for Year To Date cumulative calculation	|	T_TIM_YTD_Day	|	Level Date	|
 |	Tables and Views	|	Transformation table for Year To Fiscal Date cumulative calculation	|	T_TIF_YTD_Month	|	Level Month (YYYYMM)	|
 |		|		|		|		|
-|	Tables and Views	|	Link table linking Product and Supplier	|	L_PRO_Product_Supplier	|		|
+|	Tables and Views	|	Link table linking Product and Supplier	|	L_MAT_Material_Supplier	|		|
 |	Tables and Views	|	Link table linking Employee and Manager	|	L_HUM_Employee_Manager	|		|
 |	Tables and Views	|	Anomaly table for dimension product	|	A_D_PRO_Product	|	Level Product	|
 |	Tables and Views	|	Anomaly table for fact financial COPA	|	A_F_FIN_COPA	|		|
@@ -104,9 +104,9 @@ Example: L\_\<DOMAIN_Table1\>\_\<TableName1\>\_\<TableName2\>
 |	Tables and Views	|	Logging table for alerts	|	N_LOG_Alert	|		|
 |	Tables and Views	|	Logging table for changes	|	N_LOG_Change	|		|
 |		|		|		|		|
-|	Tables and Views	|	Metadata table for Product	|	M_PRO_Product	|	Meta informations regarding product	|
+|	Tables and Views	|	Metadata table for Product	|	M_MAT_Material	|	Meta informations regarding product	|
 |		|		|		|		|
-|	Tables and Views	|	Temporary table relative to product	|	Z_PRO_Product1	|		|
+|	Tables and Views	|	Temporary table relative to product	|	Z_MAT_Material	|		|
 
 
 
