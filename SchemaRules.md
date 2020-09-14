@@ -21,11 +21,12 @@ Schema name should be **lowercase.**
 |	schema	|	Objects for reporting tools	|	rep	|	Tables, Views and tables functions or stored procedure for reporting tools	|
 |	schema	|	Metadata	|	met	|	Meta informations other than logs data	|
  
- <br/>
  
 **schemas only for the BKP_DATACOPY Database**
+
 |	Object Type	|	Target Area	|	Sample	|	Comment	|
 | :---       |    :---   | :---       | :--- |	
 |	schema	|	Source database name	|	dwh_sigma	|	Backup schema in the BKP_DATACOPY Database	|
 |	schema	|	Source database name	|	sap_agile	|	Backup schema in the BKP_DATACOPY Database	|
+
 
