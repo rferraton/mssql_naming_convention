@@ -26,30 +26,30 @@ NB : T_ or V_ are not allowed for object type (Table or View) designation. repor
 
 ### TV3 : DOMAIN - Hierarchies Patterns List :
 
-HierachyType	|	HierarchyPattern	|	Meaning	|
-:---	|	:---:	|	:---	|
-Master Data	|	TIM	|	Time / Calendar	|
-Master Data	|	TIF	|	Time / Fiscal	|
-Master Data	|	CUS	|	Customer or Client	|
-Master Data	|	PRO	|	Product	|
-Master Data	|	ORG	|	Organization	|
-Master Data	|	GEO	|	Geographical	|
-Master Data	|	FIN	|	Financial	|
-Master Data	|	SUP	|	Supplier	|
-Master Data	|	HUM	|	Human Ressources	|
-|	|		|		|
-Fact Data	|	FIN	|	Finance	|
-Fact Data	|	SAL	|	Sales	|
-Fact Data	|	INV	|	Inventory	|
-Fact Data	|	ACT	|	Activity	|
-Fact Data	|	MAN	|	Manufacturing	|
-Fact Data	|	PUR	|	Purchasing	|
-Fact Data	|	HUM	|	Human Ressources	|
-Fact Data	|	PRO	|	Product	|
+	HierarchyPattern	|	Meaning	|
+	:---:	|	:---	|
+	TIM	|	Time / Calendar	|
+	TIF	|	Time / Fiscal	|
+	CUS	|	Customer or Client	|
+	MAT	|	Material & Product	|
+	ORG	|	Organization	|
+	GEO	|	Geographical	|
+	FIN	|	Financial	|
+	SUP	|	Supplier	|
+	HUM	|	Human Ressources	|
+	SAL	|	Sales	|
+	INV	|	Inventory	& Stock |
+	ACT	|	Activity	|
+	MAN	|	Manufacturing	|
+	PUR	|	Purchasing	|
+	PRO	|	Production	|
+  MKT | Marketing |
+  IOT | IOT |
+  
 
 ### TV4 : Cross tables names
 should be named by concatenating the names of the tables that have a one to many relationships with the junction table.<br/>
-Example: L\_\<HiercharchyPattern_Table1\>\_\<TableName1\>\_\<TableName2\>
+Example: L\_\<DOMAIN_Table1\>\_\<TableName1\>\_\<TableName2\>
 
 
 ### Samples
