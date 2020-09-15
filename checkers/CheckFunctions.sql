@@ -1,3 +1,7 @@
+CREATE FUNCTION adm.UDF_CHK_NamingFunctions ()
+RETURNS TABLE
+AS
+RETURN
 WITH 
      CorrectNamedObjects
 AS (SELECT 

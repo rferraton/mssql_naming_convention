@@ -1,3 +1,7 @@
+CREATE FUNCTION adm.UDF_CHK_NamingTableAndView ()
+RETURNS TABLE
+AS
+RETURN
 WITH 
      CorrectNamedTablesNViews
 AS (SELECT 
