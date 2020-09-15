@@ -1,11 +1,11 @@
 WITH 
      CorrectNamedObjects
 AS (SELECT 
-       so.name
+		so.name
 FROM sys.sysobjects so
-        CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements DomainsList
-        CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements PrefixList
-		CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements ProcTypeList
+	CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements DomainsList
+	CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements PrefixList
+	CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements ProcTypeList
     WHERE 
 	DomainsList.ObjType='All' AND DomainsList.EltType='Domain' AND
 	PrefixList.ObjType='TableAndView' AND PrefixList.EltType='Prefix' AND
