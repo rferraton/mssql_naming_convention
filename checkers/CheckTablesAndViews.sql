@@ -1,57 +1,22 @@
-WITH PrefixList
-AS (SELECT prefix
-    FROM
-    (
-        VALUES
-            ('F'),
-            ('A'),
-            ('N'),
-            ('L'),
-            ('T'),
-            ('S|'),
-            ('P'),
-            ('M')
-    ) AS plist (prefix) ),
-     DomainsList
-AS (SELECT trigram
-    FROM
-    (
-        VALUES
-            ('ACT'),
-            ('CUS'),
-            ('FIN'),
-            ('GEO'),
-            ('HUM'),
-            ('INV'),
-            ('IOT'),
-            ('MAN'),
-            ('MAT'),
-            ('MKT'),
-            ('ORG'),
-            ('PRO'),
-            ('PUR'),
-            ('SAL'),
-            ('SUP'),
-            ('TIF'),
-            ('TIM'),
-            ('TRA')
-    ) AS dlist (trigram) ),
+WITH 
      CorrectNamedTablesNViews
 AS (SELECT 
        so.name
 FROM sys.sysobjects so
-        CROSS JOIN DomainsList
-        CROSS JOIN PrefixList
+        CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements DomainsList
+        CROSS JOIN DBATOOLS.adm.A_CHK_NamingConventionElements PrefixList
     WHERE 
+	DomainsList.ObjType='All' AND DomainsList.EltType='Domain' AND
+	PrefixList.ObjType='TableAndView' AND PrefixList.EltType='Prefix' AND
 	so.xtype IN ( 'U', 'V' ) AND
-	so.name LIKE PrefixList.prefix + '\_' + DomainsList.trigram + '\_%' ESCAPE '\'
+	so.name COLLATE Latin1_General_CS_AS LIKE PrefixList.EltValue + '\_' + DomainsList.EltValue + '\_%' ESCAPE '\'
 	)
 SELECT CASE so.xtype
            WHEN 'U' THEN
                'TABLE'
            WHEN 'V' THEN
                'VIEW'
-       END ObjType,
+       END ObjType, so.xtype,
        so.name ObjName
 FROM sys.sysobjects so
 WHERE so.xtype IN ( 'U', 'V' )
