@@ -1,6 +1,8 @@
 # mssql naming convention
 Naming convention for mssql server objects
 
+## Rules
+The naming rules :
 - [Global Rules](GlobalRules.md)
 - [Databases Rules](DatabaseRules.md)
 - [Schemas Rules](SchemaRules.md)
@@ -11,3 +13,11 @@ Naming convention for mssql server objects
 - [Procedures Rules](ProceduresRules.md)
 - [Functions Rules](FunctionsRules.md)
 - [Jobs Rules](JobsRules.md)
+
+## Checkers :
+Functions tables to check naming convention
+- [Parameter Table and Data](checkers/adm_checkers_tables_and_data.sql)
+- [Functions checker](checkers/CheckFunctions.sql)
+- [Procedures checker](checkers/CheckProcedures.sql)
+- [Tables and Views checker](checker/CheckTablesAndViews.sql)
+- [All checker](checker/CheckAll.sql)
