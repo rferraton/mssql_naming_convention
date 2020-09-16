@@ -19,5 +19,5 @@ Functions tables to check naming convention
 - [Parameter Table and Data](checkers/adm_checkers_tables_and_data.sql)
 - [Functions checker](checkers/CheckFunctions.sql)
 - [Procedures checker](checkers/CheckProcedures.sql)
-- [Tables and Views checker](checker/CheckTablesAndViews.sql)
-- [All checker](checker/CheckAll.sql)
+- [Tables and Views checker](checkers/CheckTablesAndViews.sql)
+- [All checker](checkers/CheckAll.sql)
