@@ -5,6 +5,7 @@ domain tri-gram are used in many objects naming conventions.
 | Domain   TriGram 	| Meaning                                  	|
 |------------------	|------------------------------------------	|
 | ACT              	| Activity                                 	|
+| CHK              	| Technical Checks                        	|
 | CUS              	| Customer or Client                       	|
 | DMB              	| Database   Maintenance Database Backup   	|
 | DMC              	| Database   Maintenance Integrity Check   	|
