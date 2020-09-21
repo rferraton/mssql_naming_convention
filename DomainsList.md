@@ -23,6 +23,7 @@ domain tri-gram are used in many objects naming conventions.
 | PUR              	| Purchasing                               	|
 | SAL              	| Sales                                    	|
 | SUP              	| Supplier                                 	|
+| TEC              	| Technical (for parameters and admin)     	|
 | TIF              	| Time / Fiscal                            	|
 | TIM              	| Time / Calendar                          	|
 | TRA              	| Transport                                	|
