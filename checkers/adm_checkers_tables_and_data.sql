@@ -49,6 +49,8 @@ INSERT INTO adm.A_CHK_NamingConventionElements (ObjType,EltType,EltValue,Comment
 INSERT INTO adm.A_CHK_NamingConventionElements (ObjType,EltType,EltValue,Comment) VALUES ('All','Domain','TRA','Transport');
 
 INSERT INTO adm.A_CHK_NamingConventionElements (ObjType,EltType,EltValue,Comment) VALUES ('All','Domain','CHK','Technical Check');
+INSERT INTO adm.A_CHK_NamingConventionElements (ObjType,EltType,EltValue,Comment) VALUES ('All','Domain','TEC','Technical (for loading and admin)');
+
 
 
 -- Procedure Type
