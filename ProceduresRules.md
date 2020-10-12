@@ -21,6 +21,7 @@ load a table | Load |
 purge a table | Purge |
 prepare a table before loading |PreLoad|
 prepare a table after loading | PostLoad|
+Push data | Put |
 
 ### Samples
 
@@ -30,4 +31,5 @@ prepare a table after loading | PostLoad|
 - USP_FIN_Load_D_FIN_Account
 - USP_FIN_Purge_F_FIN_Invoice
 - USP_MDM_GetPreviousFiscalMonth
+- USP_PUT_Log
 
