@@ -7,9 +7,9 @@
 
 Constraint Type	|	CSPrefix	|Pattern|		exemple	|
 :---	|	:---:	|	:---	|:---	|
-Primary key	|	PK_	|	\<CSPrefix\>\_\<TableFullName\>	|PK_D_PRO_Product	|
-Foreign key	|	FK_	|	\<CSPrefix\>\_\<TableFullName\>\_\<ParentTableName\>	|FK_D_PRO_Product_ProductGroup	|
-Unique key	|	UK_	|	\<CSPrefix\>\_\<TableFullName\>	|UK_D_PRO_Product	|
+Primary key	|	PK_	|	\<CSPrefix\>\_\<TableFullName\>	|PK_D_MAT_Material	|
+Foreign key	|	FK_	|	\<CSPrefix\>\_\<TableFullName\>\_\<ParentTableName\>	|FK_D_MAT_Material_MaterialGroup	|
+Unique key	|	UK_	|	\<CSPrefix\>\_\<TableFullName\>	|UK_D_MAT_Material	|
 Check key	|	CK_	|	\<CSPrefix\>\_\<TableFullName\>\_\<Column\>	|CK_F_FIN_COPA_Year	|
 Default	|	DF_	|	\<CSPrefix\>\_\<TableFullName\>\_\<Column\>	|DF_D_PRO_Product_LUD	|
 
