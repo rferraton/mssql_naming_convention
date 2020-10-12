@@ -31,5 +31,5 @@ Push data | Put |
 - USP_FIN_Load_D_FIN_Account
 - USP_FIN_Purge_F_FIN_Invoice
 - USP_MDM_GetPreviousFiscalMonth
-- USP_PUT_Log
+- USP_TEC_Put_Log
 
