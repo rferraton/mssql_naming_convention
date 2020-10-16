@@ -11,6 +11,8 @@ Databases samples :
 |	database	|	SLT from SAP	|	__SAP__\_SIGMA	|
 |	database	|	SLT from SAP	|	__SAP__\_AGILE	|
 |	database	|	SLT from SAP	|	__SAP__\_FBCIS	|
+|	database	|	Others Source for Sigma DWH	|	__RAW__\_SIGMA	|
+|	database	|	Others Source for Sigma AGILE	|	__RAW__\_AGILE	|
 |	database	|	ODS from CRM	|	__CRM__\_AUREA	|
 |	database	|	DWH from AUREA	|	__DWH__\_AUREA	|
 |	database	|	DWH from SIGMA	|	__DWH__\_SIGMA	|
