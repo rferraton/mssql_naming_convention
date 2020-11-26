@@ -20,6 +20,7 @@ Schema name should be **lowercase.**
 |	schema	|	Anomalies or rejects data	|	ano	|	Anomalies or rejects data	|
 |	schema	|	Objects for reporting tools	|	rep	|	Tables, Views and tables functions or stored procedure for reporting tools	|
 |	schema	|	Metadata	|	met	|	Meta informations other than logs data	|
+|	schema	|	staging area	|	stg	|	tables used to ingest data into the platform but unusable as such	|
  
  
 **schemas only for the BKP_DATACOPY Database**
