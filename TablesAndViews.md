@@ -16,7 +16,7 @@
 | Tables and Views  |	L          |	Links tables or views |
 | Tables and Views  |	T          |	Transformation tables (YTD,12RM…) or views |
 | Tables and Views  |	S          |	Subscriptions tables or views |
-<i>| Tables and Views  |	Z          |	Temp or work tables, use tmp schema|</i>
+| Tables and Views  |	Z          |	Temp or work tables, use tmp schema|
 | Tables and Views  |	P          |	Parameters tables or views |
 | Tables and Views  |	M          |	Metadata tables or views |
 | Tables and Views  |	N          |	Logging, Notifications, Traces tables or views |
