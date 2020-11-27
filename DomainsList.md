@@ -28,3 +28,4 @@ domain tri-gram are used in many objects naming conventions.
 | TIF              	| Time / Fiscal                            	|
 | TIM              	| Time / Calendar                          	|
 | TRA              	| Transport                                	|
+| CON              	| Controlling                                	|
