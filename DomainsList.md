@@ -20,7 +20,7 @@ domain tri-gram are used in many objects naming conventions.
 | MAT              	| Material &   Product                     	|
 | MKT              	| Marketing                                	|
 | ORG              	| Organization                             	|
-| PRO              	| Production                               	|
+| PRD              	| Production                               	|
 | PUR              	| Purchasing                               	|
 | SAL              	| Sales                                    	|
 | SUP              	| Supplier                                 	|
