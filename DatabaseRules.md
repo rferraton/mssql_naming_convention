@@ -2,15 +2,13 @@
 
 - **[Global Rules](GlobalRules.md)** and
 
-### DB1 : Database naming regarding target area
+### DB1 : Naming convention for each layer:
 
-Naming convention for each layer
 |	Layer | Convention	|
-| :---       |    :---   | :---        |	
+| :---       |    :---   |
 |	Raw Layer | Raw_<SoftwareName>_<systemShortName>_<discriminent(pays, BU, Company) if needed>	|
 
-
-Databases samples :
+Example :
 
 |	Object Type	|	Layer | Sample	|
 | :---       |    :---   | :---        |				
