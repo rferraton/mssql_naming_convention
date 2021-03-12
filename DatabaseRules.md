@@ -8,7 +8,7 @@ Databases samples :
 
 |	Object Type	|	Target Area	|	Sample	|
 | :---       |    :---   | :---        |				
-|	database	|	SLT from SAP	|	_RAW_SAP__\_SIGMA	|
+|	database	|	SLT from SAP	|	_RAW_SAP_SIGMA	|
 |	database	|	SLT from SAP	|	__SAP__\_AGILE	|
 |	database	|	SLT from SAP	|	__SAP__\_FBCIS	|
 |	database	|	Other Sources for DWH SIGMA	|	__RAW__\_SIGMA	|
