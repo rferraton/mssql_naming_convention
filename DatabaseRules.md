@@ -6,8 +6,8 @@
 
 |	Layer | Convention	|
 | :---       |    :---   |
-|	Raw Layer | RAW_<SoftwareName>_<systemShortName>_<discriminent(pays, BU, Company) if needed>	|
-|	DWH Layer | DWH_<SoftwareName>_<systemShortName>_<discriminent(pays, BU, Company) if needed>	|
+|	Raw Layer | RAW_\<SoftwareName>_\<systemShortName>_<discriminent(country, BU, Company) if needed>	|
+|	DWH Layer | DWH_<SoftwareName>_<systemShortName>_<discriminent(country, BU, Company) if needed>	|
 |	DMT Layer | DMT_<Business>_<Scope>	|
 |	Referential Layer | REF_DATA	|
 |	Business Unit Layer | BU_<Business>_<Scope>	|
