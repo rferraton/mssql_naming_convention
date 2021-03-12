@@ -4,11 +4,17 @@
 
 ### DB1 : Database naming regarding target area
 
+Naming convention for each layer
+|	Layer | Convention	|
+| :---       |    :---   | :---        |	
+|	Raw Layer | Raw_<SoftwareName>_<systemShortName>_<discriminent(pays, BU, Company) if needed>	|
+
+
 Databases samples :
 
-|	Object Type	|	Target Area	|	Sample	|
+|	Object Type	|	Layer | Sample	|
 | :---       |    :---   | :---        |				
-|	database	|	SLT from SAP	|	_RAW_SAP_SIGMA	|
+|	database	|	Raw layer	|	| RAW_SAP_SIGMA	|
 |	database	|	SLT from SAP	|	__SAP__\_AGILE	|
 |	database	|	SLT from SAP	|	__SAP__\_FBCIS	|
 |	database	|	Other Sources for DWH SIGMA	|	__RAW__\_SIGMA	|
