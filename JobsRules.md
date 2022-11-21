@@ -1,26 +1,24 @@
-## Jobs naming convention
+## convention de nommage des Jobs de bases de données
 
-- **[Global Rules](GlobalRules.md)** and
+Les règles de nommages des jobs doivent respecter les **[Règles Globales](GlobalRules.md)** et
 
-### J1 : Job naming parts
-\<PREFIX\>\_\<DOMAIN\>\_\<Detail\>
+### CNJ1 : Parties du nom du jobs
+job_\<prefixe\>\_\<domaine(trigramme)\>\_\<detail\>
 
-### J2 : Job prefix
-|	Domain	|	Prefix	|
+Voir la **[Liste des domaines](DomainsList.md)** 
+### CNJ2 : préfixe
+|	Signification	|	Préfixe	|
 |	:---	|	:---:	|
-|	Business Job	|	BUS	|
-|	Technical	|	TEC	|
-
-### J3 : Job pattern and domain list
-
-See - **[Domains List](DomainsList.md)** 
+|	Job Métier	|	met	|
+|	Job Technique	|	tec	|
 
 
-### Samples
+### Exemples
 
-- TEC_DMB_UserDatabases_Full
-- TEC_DMB_UserDatabases_Diff
-- TEC_DMB_UserDatabases_Log
-- TEC_DMI_IndexDefrag
-- BUS_PUR_Invoice
+- tec_dba_sauvegardes_databases_utilisateur_complete
+- tec_dba_sauvegardes_databases_utilisateur_differentielle
+- tec_dba_sauvegardes_databases_utilisateur_journal
+- tec_dba_maintenance_index_defragmentation
+- tec_dba_maintenance_maj_statistiques
+- met_eve_controles_batch
 

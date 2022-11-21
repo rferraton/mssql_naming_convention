@@ -1,18 +1,14 @@
-## Columns naming convention
+## Convention de nommage des colonnes
 
-- **[Global Rules](GlobalRules.md)** and
+Les règles de nommages des colonnes doivent respecter les **[Règles Globales](GlobalRules.md)** et
 
-### C1 : Numeric key columns
-Surrogate key numeric columns should be named using the following syntax :
+### CNC1 : Colonne de clef technique
+syntaxe de nommage :
 <br/>
-**\<reference table name\>\_Skey**
+**ct_\<reference table name\>**
 
-### C2 : Directly-derived columns
-Columns that are derived directly from source systems (no transformations applied between source and column) should be the exact name of its source.<br/>
-The only difference may be due to the removal / replacement of forbidden characters.<br/>
-This applies to the staging area as well as all other areas.
 
-### C3 : Transformed columns
+### CNC2 : Transformed columns
 Columns that are the result of transformations can be renamed using the general naming rules
 
 ### C4 : Last Update Datetime Column
@@ -23,7 +19,7 @@ Timestamp columns Used to keep the datetime of last insertion or update of the r
 
 
 
-### Samples
+### Exemple
 
 Object Type	|	Target Area	|	Sample	|	Comment
 |	:---	|	:---	|	:---	|:---		|

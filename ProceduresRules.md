@@ -1,35 +1,26 @@
-## Procedures naming convention
+## Convention de nommages des procédures
 
-- **[Global Rules](GlobalRules.md)** and
+Les règles de nommages des procédures doivent respecter les **[Règles Globales](GlobalRules.md)** et
 
-### P1 : Procedure naming parts
-\<PREFIX\>\_\<DOMAIN\>\_\<Type\>\_\<Detail\>
+### CNP1 : Pattern de nommage
+usp\__\<type\>\__\<detail\>
 
-### P2 : Procedure prefix
-the user stored procedures must be prefixed by **USP\_**
+Voir la **[liste des domaines](DomainsList.md)** 
 
-### P3 : Procedure pattern and domain list
+### CNP2 : Types de procédure
 
-See - **[Domains List](DomainsList.md)** 
+objectif de la procédure  | type |
+:---|:---|
+renvoyer une valeur ou en ensemble |  get |
+alimenter une table (en batch) | load |
+purger une table | purge |
+preparer une table avant chargement |preload|
+prepare a table after loading | postload|
+pousser de la données dans une table | put |
 
-### P4 : Procedure type
+### Exemples
 
-Procedure objective | Type |
-:---|:---:|
-return a dataset |  Get |
-load a table | Load |
-purge a table | Purge |
-prepare a table before loading |PreLoad|
-prepare a table after loading | PostLoad|
-Push data | Put |
-
-### Samples
-
-- USP_PUR_Load_F_PUR_Invoice
-- USP_PUR_PreLoad_F_PUR_Invoice
-- USP_PUR_PostLoad_F_PUR_Invoice
-- USP_FIN_Load_D_FIN_Account
-- USP_FIN_Purge_F_FIN_Invoice
-- USP_MDM_GetPreviousFiscalMonth
-- USP_TEC_Put_Log
+- usp__load__f_evenement
+- usp__load__d_nature_infractione
+- usp__put_log
 

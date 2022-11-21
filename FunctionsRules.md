@@ -1,32 +1,29 @@
-## Functions naming convention
+## Conventions de nommages des fonctions de base de données
 
-- **[Global Rules](GlobalRules.md)** and
+- **[Rèles globale](GlobalRules.md)** et
 
-### F1 : Function naming parts
-\<PREFIX\>\_\<DOMAIN\>\_\<Type\>\_\<Detail\>
+### CNF1 : Pattern de nommage
+udf\_\<domaine(trigramme)\>\_\<type\>\_\<detail\>
 
-### F2 : Function prefix
-the user stored Functions must be prefixed by **UDF\_**
+voir **[la liste des domaines](DomainsList.md)** 
 
-### F3 : Function pattern and domain list
+### CNF2 : Types de fonction
 
-See - **[Domains List](DomainsList.md)** 
-
-### F4 : Function type
-
-Function objective | Type |
-:---|:---:|
-Retrieve a data or dataset |  Get |
-Convert or replace somesthing | Convert |
-Generate data or dataset | Generate |
-Test something |Test|
-Other | Other|
+Objectif de la fonction | Type |
+:---|:---|
+Converting ou remplacer | cvt |
+Generer un scalaire ou un ensemble | gen |
+Récupérer un scalaire ou un ensemble |  get |
+Tester quelque chose |tst|
+||
+Autre | autre |
 
 
-### Samples
+### Exemples
 
-- UDF_PUR_Get_Invoice_LastId
-- UDF_TIF_Get_PreviousFiscalMonth
-- UDF_TIF_Test_IsPreviousFiscalMonth
-- UDF_TEC_Generate_RandomNumber
+- udf_dba_get_databases
+- udf_eve_get_date_evenement
+- udf_eve_get_evenements
+- udf_uti_gen_nombre_aleatoire
+- udf_uti_tst_est_ferie
 

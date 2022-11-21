@@ -1,27 +1,30 @@
-## Constraints Rules
+## Règles de nommages des contraintes de base de données
 
-- **[Global Rules](GlobalRules.md)** and
-
-### CS1 : Constraints naming pattern
+- **[Règles Globales](GlobalRules.md)** et
 
 
-Constraint Type	|	CSPrefix	|Pattern|		exemple	|
-:---	|	:---:	|	:---	|:---	|
-Primary key	|	PK_	|	\<CSPrefix\>\_\<TableFullName\>	|PK_D_MAT_Material	|
-Foreign key	|	FK_	|	\<CSPrefix\>\_\<TableFullName\>\_\<ParentTableName\>	|FK_D_MAT_Material_MaterialGroup	|
-Unique key	|	UK_	|	\<CSPrefix\>\_\<TableFullName\>	|UK_D_MAT_Material	|
-Check key	|	CK_	|	\<CSPrefix\>\_\<TableFullName\>\_\<Column\>	|CK_F_FIN_COPA_Year	|
-Default	|	DF_	|	\<CSPrefix\>\_\<TableFullName\>\_\<Column\>	|DF_D_PRO_Product_LUD	|
+### CNCS1 : Constraints prefixes
+2 lettre en minuscules qui dépendent du type de contrainte.
 
-### CS2 : Constraints prefixes
-2 letters uppercase depending the constraint's type. Constraints prefixes will be in the following list :
+Liste des types de contraintes :
 
-Constraint Type	|	CSPrefix	|
+Type de contrainte	|	Préfixe	|
 :---	|	:---:	|	
-Primary key	|	PK_	|	
-Foreign key	|	FK_	|	
-Unique key	|	UK_	|	
-Check key	|	CK_	|	
-Default	|	DF_	|	
+Clef Primaire (Primary key)	|	pk	|	
+Clef Etrangère (Foreign key)	|	fk	|	
+Clef Unique (Unique key)	|	uk	|	
+Contrainte de vérification (Check)	|	ck	|	
+Contrainte de défault	|	df	|	
+### CNCS2 : Patterns de nommage des contraintes suivant leur type
+
+Type de Contrainte	|	Préfixe	|Pattern|		exemple	|
+:---	|	:---:	|	:---	|:---	|
+Clef Primaire (Primary key)	|	pk	|	\<prefixe\>\_\_\<nom_de_la_table\>	|pk__d_type_table_elementaire	|
+Clef Etrangère (Foreign key)	|	fk	|	\<prefixe\>\_\_\<nom_de_la_table\>\_\_\<nom_de_la_table_parente\>	|fk__d_table_elementaire__d_type_table_elementaire	|
+Clef Unique (Unique key)	|	uk	|	\<prefixe\>\_\_\<nom_de_la_table\>\_\_\<description\>	|uk__d_table_elementaire__code_mnemonique	|
+Contrainte de vérification (Check)	|	ck	|	\<prefixe\>\_\_\<nom_de_la_table\>\_\_\<column\>	|ck__d_type_table_elementaire__date_maj	|
+Default	|	df	|	\<prefixe\>\_\_\<nom_de_la_table\>\__\<column\>	|df__d_type_table_elementaire__date_maj	|
+
+
 
 
