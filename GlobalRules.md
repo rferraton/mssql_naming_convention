@@ -1,52 +1,41 @@
-## Global Rules
+## Règles Globales
 
-### G1 : Allowed characters
+### CNG1 : caractères autorisés
 
-| Syntax      | Description | 
-| :---        |    :----:   |
-|[a-z][A-Z]_  | Alphanumerical characters (a to z ; A to Z and 0 to 9) and _ only |
+| Syntaxe      | Description | 
+| :---        |    :----   |
+|[a-z]_  | Caractères alphanumeriques  (a à z et 0 à 9) et _ seulement. Pas d'accent. Pas de majuscule. |
 
-### G2 : Case
-All object names should be written in **[UpperCamelCase](https://en.wikipedia.org/wiki/Camel_case)**
+### CNG2 : Casse
+Toutes les objets en base de données doivent être nommée en **[snake_case](https://en.wikipedia.org/wiki/Snake_case)**
 
-| eg.      | Description | 
-| :---     |    :----:   |
-|MaterialId| Id for Material|
-|SalesOrganization| Sales Organization|
+| Exemple      | Description | 
+| :---     |    :----   |
+|table_elementaire_id| Identifiant de la table élémentaire|
+|d_type_table_elementaire| Table des types de tables élémentaires|
 
-### G3 : Prefixes
-Prefixes are written in <b> upper case and followed by "_" </b>
+### CNG3 : Préfixes
+Prefixes are written in <b> lower case and followed by "_" </b>
 
-#### exemples with tables or views prefixes list :  
+### CNG4 : utilisation du singulier pour les objets
+par exemple : utiliser element et pas elements
 
-| Object Type       |	Prefix      |	Description |
-| :---              |    :----:   | ---:        |
-| Tables and Views  |	F_          |	Fact tables or views|
-| Tables and Views  |	D_          |	Dimension / referential tables or views |
-| Tables and Views  |	A_          |	Anomalies or Rejects tables or views |
-| Tables and Views  |	L_          |	Links tables or views |
-| Tables and Views  |	T_          |	Transformation tables (YTD,12RM…) or views |
-| Tables and Views  |	S_          |	Subscriptions tables or views |
-| Tables and Views  |	Z_          |	Temp or work tables |
-| Tables and Views  |	P_          |	Parameters tables or views |
-| Tables and Views  |	M_          |	Metadata tables or views |
-| Tables and Views  |	N_          |	Logging, Notifications, Traces tables or views |
+### CNG5 : Pas de nombre sur le premier caractère du nom de l'objet
+par exemple interdiction pour *0_code*
 
-### G4 : Use singular for object name
-for example : use Customer and not Customers
+### CNG6 : Eviter les mots réservés dans le SGBDR 
+Pour le nommage des objets (colonnes, tables, vues....) éviter les mots réservés 
 
-### G5 : First char of Object Name must be an Alphabetical char
-**No number at the beginning** of the name of the object.
-For exemple avoid 0_PRODUCT
+[mssql mots réservés](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15)
 
-### G6 : Avoid use Reserved Word
-For column naming, avoid to use [reserved word](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15)
-For example avoid naming a column ***Date*** and prefer ***RefDate***
+[pgsql mot réservés](https://www.postgresql.org/docs/current/sql-keywords-appendix.html)
 
-### G7 : Use English
-When we are not replicating source system names, all objects must be named in **English**
-*Invoice* and not *Facture*
-This applies to names and comment sections of the code
+Par exemple éviter de nommer une colonne ***date*** et préférer ***date_reference***
 
-### G8 : Limit number of characters
-Name size should be limited as much as possible but respect all the formatting rules.
+### CNG7 : Utiliser le Français
+Tous les objets doivent être nommés en **Français**
+*cree_par* et pas *created_by*
+Cela s'applique au noms des objets et au commentaire dans le code. Les exceptions peuvent être le nommage de certains objets entrées dans le langage standard d'un domaine (exemple pk_ pour clef primaire plutôt que cp_) 
+
+### CNG8 : Limiter le nombre de caractères
+Le nom doit être aussi concit que possible tout en respectant toutes les règles de nommages.

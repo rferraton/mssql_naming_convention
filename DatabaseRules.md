@@ -1,38 +1,25 @@
-## Database Rules
+## Règles de bases de données
 
-- **[Global Rules](GlobalRules.md)** and
+- **[Règles Globales](GlobalRules.md)** et
 
-### DB1 : Naming convention for each layer:
 
-|	Layer | Convention	|
+### CNDB1 : Convention de nommage des bases de données pour les typologies de données :
+
+|	Typologie | Convention	|
 | :---       |    :---   |
-|	Raw Layer | RAW_\<SoftwareName>\_\<systemShortName>\_<discriminent(country, BU, Company) if needed>	|
-|	DWH Layer | DWH_\<SoftwareName>\_\<systemShortName>\_<discriminent(country, BU, Company) if needed>	|
-|	DMT Layer | DMT_\<Business>\_\<Scope>	|
-|	Referential Layer | REF_DATA	|
-|	Business Unit Layer | BU_\<Business>\_\<Scope>	|
+|	Applicatif | \<application>\_\<environnement>[_\<version>]	|
+|	Audit Applicatif | \<application>\_audit_\<environnement>[_\<version>]	|
+|	Traces Techniques | \<application>\_trace_\<environnement>[_\<version>]	|
 
-Examples :
 
-|	Layer | Sample	| Comment |
+Exemples :
+
+|	Typologie | Exemple	| Commentaire |
 |    :---   | :---        |	:---  |		
-|	Raw layer	|	RAW_SAP_SIGMA	| Raw copy of SAP SIGMA |
-|	Raw layer	|	RAW_SAP_IBIS	| Raw copy of SAP SIGMA |
-|	Raw layer	|	RAW_QAD_ABRASIVES	| Raw copy of QAD of Abrasives |
-|	Raw layer	|	RAW_SALESFORCE_CPS	| Raw copy of Salesforce of CPS businesses |
-|	Raw layer	|	RAW_MES_IN40RM	| Raw copy of MES IN4.0RM |
-|	Raw layer	|	RAW_SCADA_ASPEN	| Raw copy of SCADA ASPEN |
-|	Raw layer	|	RAW_FILE_GI_FR	| Raw layer for files used by Gypsum & Insulation France |
-|	DWH Layer	|	DWH_SAP_SIGMA	| DWH for SAP SIGMA data |
-|	DWH Layer| DWH_FILE_GI_FR	| DWH for files used by Gypsum & Insulation France  |
-|	DWH Layer	|	DWH_CORP	| DWH for Nazaré project |
-|	DMT Layer	|	DMT_PAYMENTTERMS	| DMT dedicated to payment terms |
-|	DMT Layer	|	DMT_GI_FR	| DMT for Gypsum & Insulation France |
-|	BU Layer	|	BU_ABRASIVES	| BU owned database for Abrasives |
+|	Applicatif	|	gaia_dev	| Environnement de Développement de la Base applicative GAIA  |
+|	Applicatif	|	gaia_rec	| Environnement de Recette de la Base applicative GAIA  |
+|	Applicatif	|	gaia_prd	| Environnement de Production de la Base applicative GAIA  |
+|	Audit Applicatif	|	gaia_audit_prd	| Données d'audit des accès sensible de GAIA en production |
+|	Traces Techniques	|	gaia_trace_prd	| Traces technique sur la base GAIA en Production |
 
-### DB2  : Allowed & replacement characters
-If source system objects use other characters, they should be replaced with the nearest allowed character
 
-é &rarr; e
-
-Space &rarr; _
