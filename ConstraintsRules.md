@@ -19,11 +19,11 @@ Contrainte de défault	|	df	|
 
 Type de Contrainte	|	Préfixe	|Pattern|		exemple	|
 :---	|	:---:	|	:---	|:---	|
-Clef Primaire (Primary key)	|	pk	|	\<prefixe\>\_\_\<nom_de_la_table\>	|pk__d_type_table_elementaire	|
-Clef Etrangère (Foreign key)	|	fk	|	\<prefixe\>\_\_\<nom_de_la_table\>\_\_\<nom_de_la_table_parente\>	|fk__d_table_elementaire__d_type_table_elementaire	|
-Clef Unique (Unique key)	|	uk	|	\<prefixe\>\_\_\<nom_de_la_table\>\_\_\<description\>	|uk__d_table_elementaire__code_mnemonique	|
-Contrainte de vérification (Check)	|	ck	|	\<prefixe\>\_\_\<nom_de_la_table\>\_\_\<column\>	|ck__d_type_table_elementaire__date_maj	|
-Default	|	df	|	\<prefixe\>\_\_\<nom_de_la_table\>\__\<column\>	|df__d_type_table_elementaire__date_maj	|
+Clef Primaire (Primary key)	|	pk	|	pk__\<nom_de_la_table>	|pk__ent__type_table_elementaire	|
+Clef Etrangère (Foreign key)	|	fk	|	fk__\<nom_de_la_table>\__\<nom_de_la_table_parente>[_role]	|fk__ent__table_elementaire__ent__type_table_elementaire	|
+Clef Unique (Unique key)	|	uk	|	uk__\<nom_de_la_table>__\<description>	|uk__ent__table_elementaire__clef_fonctionnelle	|
+Contrainte de vérification (Check)	|	ck	|	ck__\<nom_de_la_table\>__\<column\>[_xx]	|ck__ent__evenement__dt_evenement	|
+Default	|	df	|	df__\<nom_de_la_table>__\<column\>	|df__ent__type_table_elementaire__meta_dt_maj	|
 
 
 

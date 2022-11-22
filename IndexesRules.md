@@ -1,14 +1,17 @@
 ## Convention de nommage des indexes
 
-Les règles de nommages des indexes doivent respecter les **[Règles Globales](GlobalRules.md)** et
+Les règles de nommages des indexes doivent respecter les **[Règles Globales](GlobalRules.md)** et les règles suivantes :
 
-### préfixes et patterns des Indexes
+### CNI1 : préfixes et patterns des Indexes
 
 |	Btree/Column Store	|	Unique/Non Unique	|	Cluster	|	Non-Cluster	|
 |	:---	|	:---	|	:---	|	:---	|
 |	Column Store	|	Non Unique	|	cc	|	cx	|
-|	Btree (Classique)	|	Unique	|	uc\_\_\<nomtable\>\[\_xx\] ou [nom contrainte](ConstraintsRules.md)(pk, uk)	|	ux\_\_\<nomtable\>\[\_xx\] or constraint_name (pk,uk)	|
-|	Btree (Classique)	|	Non Unique	|	ic\_\_\<nomtable\>\_\_\<details\>	|	ix\_\_<nomtable\>\_\_\<details\> ou [nom contrainte](ConstraintsRules.md)(fk)	|
+|	Btree (Classique)	|	Unique	|	uc__\<nomtable\>\[_xx\] ou [nom de contrainte](ConstraintsRules.md)(pk, uk)	|	ux__\<nomtable\>\[_xx] ou [nom de contrainte](ConstraintsRules.md) (pk,uk)	|
+|	Btree (Classique)	|	Non Unique	|	ic__\<nomtable>__\<details>	| 	ix__\<nomtable>__\<details> ou [nom de contrainte](ConstraintsRules.md)(fk)	|
+|	FullText	|	N/A	|	N/A	| 	it__\<domaine>__\<details> 	|
+|	Geographique	|	N/A	|	N/A	| 	ig__\<nomtable>__\<details> 	|
+
 
 
 Pour la partie **details** dans les index, les objectif d'un index peuvent être décrit par : 
@@ -20,8 +23,9 @@ Pour la partie **details** dans les index, les objectif d'un index peuvent être
 
 
 ## Exemples :
-- uk__d_table_elementaire__code_mnemonique
-- ix__d_table_elementaire__extraction_date_maj
-- ix__d_natinf_recherche__lib_natinf
-- ix__d_natinf_extraction__date_maj
+- uk__ent_table_elementaire__clef_fonctionnelle
+- ix__ent_table_elementaire__extraction_meta__dt_maj
+- ix__ent_natinf_recherche__ls__natinf
+- ix__ent_natinf_extraction__meta__dt_maj
+- if__natinf__recherche_multicriteres
 

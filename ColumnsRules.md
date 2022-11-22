@@ -46,11 +46,11 @@ Colonnes de méta-données dans chaque table ==>
 
 syntaxe de nommage :
 <br/>
-**vs__\<extension>**
+**vs__\<prefixe>__\<colonne>**
 
 |colonne                    | description                                                           | commentaire/exemple   |
 |:--                        |:--                                                                    |:---                   |
-|vs__num_version            | Numéro de version                                                     |                       |
+|vs__cd_version             | Numéro de version                                                     |                       |
 |vs__dd_natinf              | Date de début de validité "ent__natinf"                               |                       |
 |vs__df_natinf              | Date de fin de validité  "ent__natinf"                                |                       |
-|vs__flag_courant           | Flag permettant de déterminer la version courrante (true/false)       |                       |
+|vs__fl_courant             | Flag permettant de déterminer la version courrante (true/false)       |                       |
