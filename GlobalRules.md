@@ -11,8 +11,8 @@ Toutes les objets en base de données doivent être nommée en **[snake_case](ht
 
 | Exemple      | Description | 
 | :---     |    :----   |
-|table_elementaire_id| Identifiant de la table élémentaire|
-|d_type_table_elementaire| Table des types de tables élémentaires|
+|id_table_elementaire| Identifiant de la table élémentaire|
+|ent_type_table_elementaire| Table des types de tables élémentaires|
 
 ### CNG3 : Préfixes
 Les préfixes sont en minuscule <b> et suivi d'un **double underscore** "__" </b>
