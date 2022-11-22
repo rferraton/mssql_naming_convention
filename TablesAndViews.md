@@ -34,14 +34,14 @@ Example: rel\__\<racine_nom_table1\>\__\<racine_nom_table1\>
 
 |	Type            |	description de l'objet cible	                    |	exemple	                    |	Schéma	|
 |	:---	        |	:---	                                            |	:---	                    |	:---    |
-|	Tables et vues	|	Calendrier d'evènements	                            |	ent__calendrier	            |	met_eve |
+|	Tables et vues	|	Calendrier d'evènements	                            |	ent__calendrier	            |	met_evt |
 |	Tables et vues	|	Table de tables élémentaires	                    |	ent__table_elementaire	    |	met_tem |
 |	Tables et vues	|	Table de type de tables élémentaires	            |	ent__type_table_elementaire	|	met_tem |
 |	Tables et vues	|	Table historique des tables élémentaires	        |	his__table_elementaire	    |	met_tem |
 |	Tables et vues	|	journaux/Notifications des alertes	                |	not__alerte_controle_qualite|	tec_qua |
 |	Tables et vues	|	journaux/Notifications des changements	            |	not__journal_changement	    |	tec_not |
-|	Tables et vues	|	Metadata pour les nature d'infraction	            |	mta__natinf	                |	mta_nin |
-|	Tables et vues	|	table temporaire d'import de données élémentaires	|	zzz__table_elementaire	    |	tec_imp |
+|	Tables et vues	|	Metadata pour les nature d'infraction	            |	mta__natinf	                |	met_nin |
+|	Tables et vues	|	table temporaire d'import de données élémentaires	|	zzz__table_elementaire	    |	tec_tmp |
 
 
 
