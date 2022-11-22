@@ -5,7 +5,7 @@ Convention de nommage des objets de bases de données
 Les règles de nommage :
 - [Règles Globales](GlobalRules.md)
 - [Règles de niveau Bases de Données](DatabaseRules.md)
-- [Règles de niveau Schéma](SchemaRules.md)
+- [Règles de niveau Schémas](SchemaRules.md)
 - [Règles de niveau Tables et Vues](TablesAndViews.md)
 - [Règles de niveau Colonnes](ColumnsRules.md)
 - [Règles de niveau Contraintes](ConstraintsRules.md)
