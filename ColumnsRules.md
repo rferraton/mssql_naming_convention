@@ -1,4 +1,4 @@
-# Convention de nommage des colonnes
+# Règles de nommage des colonnes
 
 Les règles de nommages des colonnes doivent respecter les **[Règles Globales](GlobalRules.md)** et
 
