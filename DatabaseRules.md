@@ -6,9 +6,7 @@
 ### CNDB1 : Convention de nommage des bases de données pour les typologies de données :
 
 <br>
-La version est intégrée dans le nom de la base de données afin de permettre la gestion des développements/recettes d'une version X+1 alors que la version X est en maintenance.
-<br><br>
-L'environnement de production n'aura pas de version mais les environnements non-productif, eux, pourraient en avoir besoin.
+Les notion de version et d'environnement sont gérés via le provisionning des Pods.
 <br>
 <br>
 
