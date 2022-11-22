@@ -7,7 +7,7 @@ Les règles de nommage :
 - [Règles de niveau Bases de Données](DatabaseRules.md)
 - [Règles de niveau Schéma](SchemaRules.md)
 - [Règles de niveau Tables et Vues](TablesAndViews.md)
-- [Règles de niveau Colones](ColumnsRules.md)
+- [Règles de niveau Colonnes](ColumnsRules.md)
 - [Règles de niveau Contraintes](ConstraintsRules.md)
 - [Règles de niveau Indexes](IndexesRules.md)
 - [Règles de niveau Procédures](ProceduresRules.md)
