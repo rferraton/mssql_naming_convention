@@ -3,7 +3,7 @@
 Les règles de nommages des jobs doivent respecter les **[Règles Globales](GlobalRules.md)** et
 
 ### CNJ1 : Parties du nom du jobs
-job_\<prefixe\>\_\<domaine(trigramme)\>\_\<detail\>
+job__\<prefixe\>\_\_\<type_domaine>_\_\<domaine(trigramme)>\_\_\<detail\>
 
 Voir la **[Liste des domaines](DomainsList.md)** 
 ### CNJ2 : préfixe
@@ -15,10 +15,10 @@ Voir la **[Liste des domaines](DomainsList.md)**
 
 ### Exemples
 
-- tec_dba_sauvegardes_databases_utilisateur_complete
-- tec_dba_sauvegardes_databases_utilisateur_differentielle
-- tec_dba_sauvegardes_databases_utilisateur_journal
-- tec_dba_maintenance_index_defragmentation
-- tec_dba_maintenance_maj_statistiques
-- met_eve_controles_batch
+- job__tec__dba__sauvegardes_databases_utilisateur_complete
+- job__tec__dba__sauvegardes_databases_utilisateur_differentielle
+- job__tec__dba__sauvegardes_databases_utilisateur_journal
+- job__tec__dba__maintenance_index_defragmentation
+- job__tec__dba__maintenance_maj_statistiques
+- job__met__eve__controles_batch
 

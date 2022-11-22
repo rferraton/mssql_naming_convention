@@ -1,23 +1,23 @@
-# mssql naming convention
-Naming convention for mssql server objects
+# Convention de nommage dans la base de données
+Convention de nommage des objets de bases de données
 
-## Rules
-The naming rules :
-- [Global Rules](GlobalRules.md)
-- [Databases Rules](DatabaseRules.md)
-- [Schemas Rules](SchemaRules.md)
-- [Tables and Views Rules](TablesAndViews.md)
-- [Columns Rules](ColumnsRules.md)
-- [Constraints Rules](ConstraintsRules.md)
-- [Indexes Rules](IndexesRules.md)
-- [Procedures Rules](ProceduresRules.md)
-- [Functions Rules](FunctionsRules.md)
-- [Jobs Rules](JobsRules.md)
+## Règles
+Les règles de nommage :
+- [Règles Globales](GlobalRules.md)
+- [Règles de niveau Bases de Données](DatabaseRules.md)
+- [Règles de niveau Schéma](SchemaRules.md)
+- [Règles de niveau Tables et Vues](TablesAndViews.md)
+- [Règles de niveau Colones](ColumnsRules.md)
+- [Règles de niveau Contraintes](ConstraintsRules.md)
+- [Règles de niveau Indexes](IndexesRules.md)
+- [Règles de niveau Procédures](ProceduresRules.md)
+- [Règles de niveau Fonctions](FunctionsRules.md)
+- [Règles de niveau Jobs](JobsRules.md)
 
-## Checkers :
-Functions tables to check naming convention
-- [Parameter Table and Data](checkers/adm_checkers_tables_and_data.sql)
-- [Functions checker](checkers/CheckFunctions.sql)
-- [Procedures checker](checkers/CheckProcedures.sql)
-- [Tables and Views checker](checkers/CheckTablesAndViews.sql)
-- [All checker](checkers/CheckAll.sql)
+## Vérificateurs :
+Outils en base de données capable de vérifier la convention de nommage
+- [Tables de Paramètres et Données pour les Vérificateurs](checkers/adm_checkers_tables_and_data.sql)
+- [Vérificateur de Fonctions](checkers/CheckFunctions.sql)
+- [Vérificateur de Procedures](checkers/CheckProcedures.sql)
+- [Vérificateurs Tables et Vues](checkers/CheckTablesAndViews.sql)
+- [Tous les Vérificateurs checker](checkers/CheckAll.sql)

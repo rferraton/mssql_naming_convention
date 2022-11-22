@@ -3,7 +3,7 @@
 - **[Rèles globale](GlobalRules.md)** et
 
 ### CNF1 : Pattern de nommage
-udf\_\<domaine(trigramme)\>\_\<type\>\_\<detail\>
+udf\_\_\<type\>\_\_\<detail\>
 
 voir **[la liste des domaines](DomainsList.md)** 
 
@@ -11,19 +11,19 @@ voir **[la liste des domaines](DomainsList.md)**
 
 Objectif de la fonction | Type |
 :---|:---|
-Converting ou remplacer | cvt |
+Convertir ou remplacer | cvt |
 Generer un scalaire ou un ensemble | gen |
 Récupérer un scalaire ou un ensemble |  get |
-Tester quelque chose |tst|
+Tester quelque chose | tst |
 ||
 Autre | autre |
 
 
 ### Exemples
 
-- udf_dba_get_databases
-- udf_eve_get_date_evenement
-- udf_eve_get_evenements
-- udf_uti_gen_nombre_aleatoire
-- udf_uti_tst_est_ferie
+- udf__get__databases
+- udf__get__date_evenement
+- udf__get__evenements
+- udf__gen__nombre_aleatoire
+- udf__tst__est_ferie
 

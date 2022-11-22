@@ -28,6 +28,7 @@ Voir la liste complète des dommaines : **[Liste des domaines](DomainsList.md)**
 |Métier          |Tables élémentaires (Nomenclature)        	| tem       | met_tem |
 |Technique       |Administration de base de données             | dba       | tec_dba |
 |Technique       |Audit	                                        | aud       | tec_aud |
+|Technique       |Export                                        | exp       | tec_exp |
 |Technique       |Gestion des modèles (liquidbase)	            | mod       | tec_mod |
 |Technique       |Import/Staging	                            | imp       | tec_imp |
 |Technique       |Notification/Log	                            | not       | tec_not |

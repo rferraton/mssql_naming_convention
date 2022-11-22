@@ -14,7 +14,7 @@
 |-----------------------------------------	 | :--------:|------------------|
 |Caractéristique                         	 | car       | caracteristique 	|
 |Compétences (matérielles et territoriales)  | cpe       | competence       |
-|Evènement                               	 | eve       | evenement        |
+|Evènement                               	 | evt       | evenement        |
 |Géographie                	                 | geo       | geographie       |
 |Mesure                                      | mes       | mesure          	|
 |Nature d’Infraction                         | nin       | natinf           |
@@ -29,6 +29,7 @@
 |-----------------------------------------	 | :--------:|------------------|
 |Administration de base de données           | dba       | dba              |
 |Audit	                                     | aud       | audit            |
+|Expor                                       | exp       | export           |
 |Gestion des modèles (liquidbase)	         | mod       | modele           |
 |Import/Staging	                             | imp       | import           |
 |Notification/Log	                         | not       | notif            |

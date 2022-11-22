@@ -4,7 +4,7 @@
 
 | Syntaxe      | Description | 
 | :---        |    :----   |
-|[a-z]_  | Caractères alphanumeriques  (a à z et 0 à 9) et _ seulement. Pas d'accent. Pas de majuscule. |
+|[a-z][0-9]_  | Caractères alphanumeriques  (a à z et 0 à 9) et _ seulement. Pas d'accent. Pas de majuscule. |
 
 ### CNG2 : Casse
 Toutes les objets en base de données doivent être nommée en **[snake_case](https://en.wikipedia.org/wiki/Snake_case)**
@@ -15,7 +15,7 @@ Toutes les objets en base de données doivent être nommée en **[snake_case](ht
 |d_type_table_elementaire| Table des types de tables élémentaires|
 
 ### CNG3 : Préfixes
-Prefixes are written in <b> lower case and followed by "_" </b>
+Les préfixes sont en minuscule <b> et suivi d'un **double underscore** "__" </b>
 
 ### CNG4 : utilisation du singulier pour les objets
 par exemple : utiliser element et pas elements
