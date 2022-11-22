@@ -15,21 +15,17 @@ L'environnement de production n'aura pas de version mais les environnements non-
 
 |	Typologie | Convention	|
 | :---       |    :---   |
-|	Applicatif | \<application>\[\_\_\<version>]	|
-|	Audit Applicatif | \<application>\_audit\[\_\_\<version>]	|
-|	Traces Techniques | \<application>\_trace\[\_\_\<version>]	|
+|	Applicatif | \<application>	|
+|	Audit Applicatif | \<application>\_audit|
+|	Traces Techniques | \<application>\_trace	|
 
 
 Exemples :
 
 |	Typologie | Exemple	| Commentaire |
 |    :---   | :---        |	:-
-|	Applicatif	|	gaia__v1_0	| GAIA v1.0 (dev/int/rec)  |
-|	Applicatif	|	gaia__v2_2	| GAIA v2.2 (dev/int/rec) |
-|	Audit Applicatif	|	gaia_audit__v1_0 	| Données d'audit des accès sensible de GAIA v1.0 environnement non productif |
-|	Traces Techniques	|	gaia_trace__v2_2	| Traces technique sur la base GAIA  v2.2 environnement non productif |
-|	Applicatif	|	gaia	| Environnement de Production de la Base applicative GAIA  |
-|	Audit Applicatif	|	gaia_audit__v1_0	| Données d'audit des accès sensible de GAIA en production |
-|	Traces Techniques	|	gaia_trace__v2_2	| Traces technique sur la base GAIA en Production |
+|	Applicatif	|	gaia	| GAIA  | Application GAIA |
+|	Audit Applicatif	|	gaia_audit	| Données d'audit des accès sensible de GAIA |
+|	Traces Techniques	|	gaia_trace	| Traces techniques sur la base GAIA  |
 
 
