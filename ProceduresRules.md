@@ -3,7 +3,7 @@
 Les règles de nommages des procédures doivent respecter les **[Règles Globales](GlobalRules.md)** et
 
 ### CNP1 : Pattern de nommage
-usp\__\<type\>\__\<detail\>
+usp__\<type\>\__\<detail\>
 
 Voir la **[liste des domaines](DomainsList.md)** 
 
