@@ -1,4 +1,4 @@
-## Convention de nommage des indexes
+## Règles des indexes
 
 Les règles de nommages des indexes doivent respecter les **[Règles Globales](GlobalRules.md)** et les règles suivantes :
 
