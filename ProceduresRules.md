@@ -20,7 +20,7 @@ pousser de la données dans une table | put |
 
 ### Exemples
 
-- usp__load__f_evenement
-- usp__load__d_nature_infractione
+- usp__load__his__evenement
+- usp__load__ent__natinf
 - usp__put_log
 
