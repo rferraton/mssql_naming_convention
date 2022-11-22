@@ -21,15 +21,12 @@ syntaxe de nommage :
 
 | préfixe                | description                     | exemples                               |
 | :--                    |:--                              | :---                                   |
-| cd                     | Code                            | cd__table_elementaire, cd__element     |
-| ds                     | Description                     | ds__erreur                             |
-| dt                     | Date                            | dt__evenement                          |
-| fl                     | Flag/Booléen                    | fl__externe                            |
-| ls                     | Libellé Standard                | ls__natinf                             |
-| lr                     | Libellé Réduit                  | lr__natinf                             |
-| ll                     | Libellé Long                    | ll__natinf                             |
-| va                     | Valeur                          | va__salaire, va__element               |
-| ct                     | Commentaire                     | ct__natinf                             |
+| code                   | Code                            | code__table_elementaire, code__element     |
+| date                   | Date                            | date__evenement                          |
+| est                    | Flag/Booléen                    | est__externe                            |
+| libelle                | Libellé                         | libelle, libelle__reduit, libelle__long                             |
+| valeur                 | Valeur                          | valeur__salaire, va__element               |
+| texte                  | Texte                           | texte__commentaire; texte__description; texte__observation                             |
  
 ### CNC3 : Colonnes de méta-données
 les colonnes de méta données sont préfixées par **meta__**
@@ -38,19 +35,19 @@ Colonnes de méta-données dans chaque table ==>
 
 |colonne                    | description                                                                   | commentaire/exemple   |
 |:--                        |:--                                                                            |:---                   |
-|meta__dt_maj               | date de dernière mise à jour (ou insertion)                                   | 2022-11-22T10:47.53   |
-|meta__id_utilisateur_maj   | identifiant technique de l'utilisateur ayant fait la dernière mise à jour     | 128                   |
+|meta__date_maj             | date de dernière mise à jour (ou insertion)                                   | 2022-11-22T10:47.53   |
+|meta__id_service_maj       | identifiant technique du service de l'utilisateur ayant fait la dernière mise à jour     | 128                   |
 
 
 ### CNC4 : Colonnes pour la gestion des versions
 
 syntaxe de nommage :
 <br/>
-**vs__\<prefixe>__\<colonne>**
+**version__\<detail_colonne>**
 
 |colonne                    | description                                                           | commentaire/exemple   |
 |:--                        |:--                                                                    |:---                   |
-|vs__cd_version             | Numéro de version                                                     |                       |
-|vs__dd_natinf              | Date de début de validité "ent__natinf"                               |                       |
-|vs__df_natinf              | Date de fin de validité  "ent__natinf"                                |                       |
-|vs__fl_courant             | Flag permettant de déterminer la version courrante (true/false)       |                       |
+|version__numero             | Numéro de version                                                     |                       |
+|version__date_debut              | Date de début de validité                               |                       |
+|version__date_fin              | Date de fin de validité                                 |                       |
+|version__est_courant             | Flag permettant de déterminer la version courrante (true/false)       |                       |
