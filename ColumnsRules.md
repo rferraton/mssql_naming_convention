@@ -7,8 +7,8 @@ syntaxe de nommage :
 <br/>
 **id__\<racine_nom_table\>**
 
-|colonne                 | description                                                           | commentaire   |
-|:--                     |:--                                                                    |:---                   |
+|colonne                 | description                                                                  | commentaire           |
+|:--                     |:--                                                                           |:---                   |
 |id__table_elementaire   | identifiant technique de la table "ent__table_elementaire"                   |                       |
 |id__natinf              | identifiant technique de la table "ent__natinf"                              |                       |
 
@@ -19,27 +19,27 @@ syntaxe de nommage :
 <br/>
 **\<prefixe>__\<detail_colonne>**
 
-|préfixe                 | description                     | commentaire/exemple                |
-| :--                    |:--                              | :---                               |
-| cd                     | Code                            | cd_table_elementaire, cd_element   |
-| ds                     | Description                     | ds_erreur                          |
-| dt                     | Date                            | dt_evenement                       |
-| fl                     | Flag/Booléen                    | fl_externe                         |
-| ls                     | Libellé Standard                | ls_natinf                          |
-| lr                     | Libellé Réduit                  | lr_natinf                          |
-| ll                     | Libellé Long                    | ll_natinf                          |
-| va                     | Valeur                          | va_salaire, va_element             |
-| ct                     | Commentaire                     | ct_natinf                          |
+| préfixe                | description                     | exemples                               |
+| :--                    |:--                              | :---                                   |
+| cd                     | Code                            | cd__table_elementaire, cd__element     |
+| ds                     | Description                     | ds__erreur                             |
+| dt                     | Date                            | dt__evenement                          |
+| fl                     | Flag/Booléen                    | fl__externe                            |
+| ls                     | Libellé Standard                | ls__natinf                             |
+| lr                     | Libellé Réduit                  | lr__natinf                             |
+| ll                     | Libellé Long                    | ll__natinf                             |
+| va                     | Valeur                          | va__salaire, va__element               |
+| ct                     | Commentaire                     | ct__natinf                             |
  
 ### CNC3 : Colonnes de méta-données
 les colonnes de méta données sont préfixées par **meta__**
 
 Colonnes de méta-données dans chaque table ==> 
 
-|colonne                    | description                                                           | commentaire/exemple   |
-|:--                        |:--                                                                    |:---                   |
-|meta__dt_maj               | date de dernière mise à jour (ou insertion)                           | 2022-11-22T10:47.53   |
-|meta__id_utilisateur_maj   | identifiant technique de l'utilisateur ayant fait la dernière mise à jour    | 128                   |
+|colonne                    | description                                                                   | commentaire/exemple   |
+|:--                        |:--                                                                            |:---                   |
+|meta__dt_maj               | date de dernière mise à jour (ou insertion)                                   | 2022-11-22T10:47.53   |
+|meta__id_utilisateur_maj   | identifiant technique de l'utilisateur ayant fait la dernière mise à jour     | 128                   |
 
 
 ### CNC4 : Colonnes pour la gestion des versions
@@ -48,13 +48,9 @@ syntaxe de nommage :
 <br/>
 **vs__\<extension>**
 
-|colonne                 | description                                                           | commentaire/exemple   |
-|:--                     |:--                                                                    |:---                   |
-|vs__num_version   | Numéro de version                    |                       |
-|vs__natinf__dd   | Date de début de validité  "ent__natinf"                              |                       |
-|vs__natinf__df   | Date de fin de validité  "ent__natinf"                              |                       |
-|vs__flag_courant
-
-
-
-
+|colonne                    | description                                                           | commentaire/exemple   |
+|:--                        |:--                                                                    |:---                   |
+|vs__num_version            | Numéro de version                                                     |                       |
+|vs__dd_natinf              | Date de début de validité "ent__natinf"                               |                       |
+|vs__df_natinf              | Date de fin de validité  "ent__natinf"                                |                       |
+|vs__flag_courant           | Flag permettant de déterminer la version courrante (true/false)       |                       |
